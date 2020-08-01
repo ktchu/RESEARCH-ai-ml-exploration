@@ -1,0 +1,15 @@
+===========================================================================
+2015-06-20
+----------
+* Understanding Gamma Correction
+
+    * http://www.cambridgeincolour.com/tutorials/gamma-correction.htm
+
+===========================================================================
+2015-06-19
+----------
+* Natural Image Statistics - Hyvarinen, Hurri and Hoyer
+
+    * http://www.naturalimagestatistics.net/
+
+===========================================================================
