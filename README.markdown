@@ -1,5 +1,5 @@
-Velexi Template: Data Science Project
-=====================================
+Serendipity Research: AI/ML Experiments
+=======================================
 
 ___Authors___  
 Kevin T. Chu `<kevin@velexi.com>`
@@ -27,27 +27,13 @@ Table of Contents
 
    2.4. [Using Jupyter Notebook][#2.4]
 
-3. [References][#3]
+3. [License][#3]
 
 ------------------------------------------------------------------------------
 
 ## 1. Overview
 
-This project template is intended to support data science projects that
-utilize Jupyter notebooks for experimentation and reporting. The design of
-the template is based on the blog article
-["Jupyter Notebook Best Practices for Data Science"][#whitmore-2016] by
-Jonathan Whitmore.
-
-Features include:
-
-* Compatible with standard version control software.
-
-* Automatically saves HTML and `*.py` versions of Jupyter notebooks to
-  facilitate review of both (1) data science results and (2) implementation
-  code.
-
-* Supports common data science workflows (for both individuals and teams).
+This git repository contains a collection of AI/ML experiments.
 
 ### 1.1 Software Dependencies
 
@@ -74,7 +60,7 @@ Features include:
 * `README.markdown`: this file
 
 * `requirements.txt`: `pip` requirements file containing Python packages for
-  data science, testing, and assessing code quality
+  AI/ML, testing, and assessing code quality
 
 * `config`: directory containing template configuration files (e.g., `autoenv`
   configuration file)
@@ -181,12 +167,9 @@ When appropriate, they should be renamed (with the 'template' suffix removed).
 
 ------------------------------------------------------------------------------
 
-3 References
-------------
+## 3. License
 
-* J. Whitmore.
-  ["Jupyter Notebook Best Practices for Data Science"][#whitmore-2016]
-  (2016/09).
+See the LICENSE file for copyright and license information.
 
 ------------------------------------------------------------------------------
 
@@ -203,9 +186,6 @@ When appropriate, they should be renamed (with the 'template' suffix removed).
 [#2.3]: #23-environment
 [#2.4]: #24-using-jupyter-notebook
 
-[#3]: #3-references
+[#3]: #3-license
 
 [-----------------------------EXTERNAL LINKS-----------------------------]: #
-
-[#whitmore-2016]:
-  https://www.svds.com/tbt-jupyter-notebook-best-practices-data-science/
