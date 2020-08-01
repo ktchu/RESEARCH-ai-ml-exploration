@@ -20,10 +20,10 @@ from sklearn.decomposition import FastICA
 # --- Load data
 
 # load natural image data
-image_file_list = os.listdir(os.path.join('data', 'test'))
+image_file_list = os.listdir(os.path.join('data'))
 image_data = []
 for image_file in image_file_list:
-    img = Image.open(os.path.join('data', 'test', image_file))
+    img = Image.open(os.path.join('data', image_file))
     image_data.append(numpy.array(img.getdata(), dtype='float'))
 
 # --- Construct data set
