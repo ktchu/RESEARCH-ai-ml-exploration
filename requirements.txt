@@ -15,6 +15,7 @@ jupyter
 # Basic utility packages
 click
 PyYAML
+tqdm
 
 # Code quality
 coverage
