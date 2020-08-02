@@ -1,5 +1,6 @@
 # Math, statistics, data processing packages
 matplotlib
+numba
 numpy
 pandas
 pillow
