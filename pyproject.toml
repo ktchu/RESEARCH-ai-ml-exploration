@@ -1,0 +1,69 @@
+[tool.poetry]
+name = "AI/ML Explorations"
+version = "0.0.0"
+description = ""
+license = "Apache-2.0"
+readme = "README.md"
+authors = ["Kevin T. Chu <kevin@velexi.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10,<3.13"
+
+# research infrastructure
+ipython = "^8"
+jupyterlab = "^4"
+matplotlib = "^3"
+numba = "^0.60"
+numpy = "^2"
+pandas = "^2"
+pillow = "^11"
+scipy = "^1"
+scikit-learn = "^1"
+seaborn = "^0.13"
+
+# miscellaneous utilities
+pdoc = "^15"
+python-slugify = "^8"
+PyYAML = "^6"
+tqdm = "^4"
+typer = "^0,>=0.15"
+
+# software testing
+coverage = "^7"
+pytest = "^8"
+pytest-cov = "^6"
+pytest-xdist = "^3"
+
+# code quality packages
+black = {extras = ["jupyter"], version = "^24"}
+flake8 = "^7"
+pre-commit = "^4"
+
+# security vulnerability fixes
+pywin32 = [
+    { version = '>=301', platform = 'win32' },
+]
+
+[tool.pytest.ini_options]
+minversion = "6.0"
+addopts = "-ra --doctest-modules --cov --cov-report="
+testpaths = [
+    "src",
+]
+doctest_optionflags = [
+    "NORMALIZE_WHITESPACE",
+    "IGNORE_EXCEPTION_DETAIL",
+    "ALLOW_UNICODE",
+    "ALLOW_BYTES",
+]
+norecursedirs = ["data", "docs", "extras", "notebooks", "reports", "spikes"]
+
+[tool.coverage.run]
+source = ["src/"]
+
+[tool.coverage.report]
+omit = ["*/tests/*"]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
