@@ -82,7 +82,8 @@ else:
             raise ValueError(message)
 
         if item < min_image_number or item > max_image_number:
-            message = "Image number '{}' is out of the range. Valid values: [{}, {}]"                 .format(item, min_image_number, max_image_number)
+            message = "Image number '{}' is out of the range. Valid values: [{}, {}]" \
+                .format(item, min_image_number, max_image_number)
             raise ValueError(message)
 
 
